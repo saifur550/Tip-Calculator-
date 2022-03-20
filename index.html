@@ -8,6 +8,25 @@
     <title>tip calculation</title>
 </head>
 <body>
+    <div class="container">
+        <div class="full-content">
+            <header>
+                <h2 id="title" class="text-center">Calculator</h2>
+            </header>
     
+            <form action="javascript:void(calc());">
+                <input type="number" id="bill" class="form-control" placeholder="Total Bill"> <br> <br>
+                <input type="number" id="split" class="form-control" placeholder="Number of person"> <br> <br>
+                <button id="calculator">Calculator</button>
+            </form>
+    
+            <div class="result">
+                <p id="tip"> Tip Amount: 00</p>
+                <p id="total"> Total Amount: 00</p>
+                <p id="splittotal"> SplitTotal : 00</p>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
 </body>
 </html>
